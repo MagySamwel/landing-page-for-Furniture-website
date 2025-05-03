@@ -1,0 +1,40 @@
+nav{
+    background-color: rgb(59, 93, 80);
+    padding: 20px 120px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 0;
+    padding: 0 20px;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(157, 174, 168);
+    margin-right: 30px;
+    padding: 15px 0;
+}
+a::after{
+    content: '';
+    background: rgb(249, 191, 41);
+    position: absolute;
+    height: 5px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+    transition: .2s;
+}
+a:hover::after,a:hover{
+    width: 100%;
+    color: white;
+
+}
+a.active {
+    color: white; /* Same as hover color */
+}
+
+a.active::after {
+    width: 100%; /* Same as hover underline */
+}

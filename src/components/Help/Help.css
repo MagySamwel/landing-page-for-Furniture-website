@@ -1,0 +1,10 @@
+.help-section{
+    padding: 80px 120px;
+    line-height: 30px;
+
+}
+
+.help-section p{
+    color: rgb(106, 106, 106);
+    /* padding-top: 20px; */
+}

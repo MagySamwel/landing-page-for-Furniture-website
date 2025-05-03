@@ -1,0 +1,27 @@
+.hero{
+    background-color: rgb(59, 93, 80);
+    padding: 20px 120px;
+    line-height: 50px;
+}
+
+.hero h1{
+    font-size: 58px;
+    color: white;
+    padding-bottom: 30px;
+}
+.hero p{
+    width: 85%;
+    color: rgb(157, 174, 168);
+    padding-bottom: 20px;
+}
+.hero button{
+    font-size: 18px;
+}
+
+.hero button:last-of-type {
+    color: white;
+}
+.hero button:last-of-type:hover{
+    border-color: aliceblue ;
+    background-color: rgb(59, 93, 80);
+}

@@ -1,0 +1,45 @@
+.product-section{
+    padding: 80px 120px;
+    line-height: 30px;
+}
+.product-section h2{
+    padding-bottom: 20px;
+}
+
+.product-section p{
+    color: rgb(157, 174, 168);
+    padding-bottom: 20px;
+}
+.product-img{
+    position: relative;
+    transform: translateY(0); /* Ensure the initial state is explicitly set */
+}
+.product-img img{
+    transition: transform 0.3s ease-in-out;
+
+}
+.product-img::after{
+    content: '';
+    background: rgb(220, 229, 228);
+    position: absolute;
+    height: 65px;
+    width: 95%;
+    border-radius: 5px;
+    transform: scaleY(0); 
+    transform-origin: bottom;
+    transition: transform 0.3s ease-in-out;
+    z-index: -1;
+}
+.product-img:hover::after{
+    transform: scaleY(5);
+}
+.product-img:hover img{
+    transform: translateY(-20px);
+}
+.icon{
+    visibility: hidden;
+    transform: translateY(80px);
+}
+.product-img:hover .icon{
+    visibility: visible;
+}
