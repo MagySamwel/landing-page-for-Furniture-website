@@ -38,3 +38,33 @@ a.active {
 a.active::after {
     width: 100%; /* Same as hover underline */
 }
+
+/* .show {
+  display: inline;  
+} */
+.notshow{
+    display: none;
+}
+.menu-icon {
+  display: none;
+
+}
+/* @media screen and (min-width: 769px) {
+    .menu-icon {
+        display: none;
+    }
+} */
+@media screen and (max-width: 768px) {
+    nav {
+        padding: 10px;
+    }
+    ul {
+        /* flex-direction: column; */
+        gap: 10px;
+    }
+    a {
+        padding: 10px 0;
+    }
+    
+}
+
