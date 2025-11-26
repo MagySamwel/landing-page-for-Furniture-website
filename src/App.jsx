@@ -1,7 +1,7 @@
 import "./App.css"
 import Chair from "./components/chairs/Chair";
-import Choose from "./components/Choose/Choose";
-import Help from "./components/Help/Help";
+import Choose from "./components/choose/Choose";
+import Help from "./components/help/Help";
 import Hero from "./components/hero/Hero";
 import NavBar from './components/navbar/NavBar';
 import Product from "./components/product/Product";
