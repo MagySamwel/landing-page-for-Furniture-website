@@ -5,3 +5,9 @@
 .choose p{
     color: rgb(106, 106, 106)
 }
+
+@media screen and (max-width: 425px) {
+    .choose{
+        padding: 50px 16px;
+    }
+}

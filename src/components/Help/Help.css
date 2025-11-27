@@ -8,3 +8,10 @@
     color: rgb(106, 106, 106);
     /* padding-top: 20px; */
 }
+
+@media screen and (max-width: 425px) {
+    .help-section{
+        padding: 50px 16px;
+    }
+   
+}

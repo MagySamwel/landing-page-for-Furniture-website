@@ -6,3 +6,10 @@
     color: rgb(106, 106, 106);
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 425px) {
+    .chair-section{
+        padding: 50px 16px;
+    }
+    
+}

@@ -21,8 +21,8 @@ function Help() {
         },
     ]
     return (
-        <Grid2 container className='help-section bg-light' spacing={7}>
-            <Grid2 size={7}>
+        <Grid2 container className='help-section bg-light w-100' spacing={7}>
+            <Grid2 size={{xs:12,md:7}} order={{xs:2, md:1}}>
                 <ImageList cols={3} gap={16}>
                     {itemData.map((item, index) => (
                         <ImageListItem key={index} rows={item.rows} cols={item.cols || 1}>
@@ -37,7 +37,7 @@ function Help() {
                 </ImageList>
                 {/* <img src='https://themewagon.github.io/furni/images/img-grid-3.jpg' width={'380px'} style={{translate:'344px -308px',borderRadius:'20px'}}></img> */}
             </Grid2>
-            <Grid2 size={5}>
+            <Grid2 size={{xs:12,md:5}} order={{xs:1, md:2}}>
                 <Typography variant="h4" component={'h2'} pb={3}>We Help You Make Modern Interior Design</Typography>
                 <Typography variant="p" component={'p'}>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada.
                      Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.

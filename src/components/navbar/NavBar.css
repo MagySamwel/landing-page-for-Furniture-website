@@ -55,6 +55,9 @@ a.active::after {
     }
 } */
 @media screen and (max-width: 768px) {
+    .nav-bar{
+        width: 100%;
+    }
     nav {
         padding: 10px;
     }
@@ -64,6 +67,10 @@ a.active::after {
     }
     a {
         padding: 10px 0;
+    }
+    .navbar-collap{
+        display: flex;
+        flex-direction: column;
     }
     
 }

@@ -12,6 +12,7 @@
 }
 .product-img{
     position: relative;
+    padding: 0 10px;
     transform: translateY(0); /* Ensure the initial state is explicitly set */
 }
 .product-img img{
@@ -42,4 +43,11 @@
 }
 .product-img:hover .icon{
     visibility: visible;
+}
+
+@media screen and (max-width: 425px) {
+    .product-section{
+        flex-direction: column;
+        padding: 50px 16px;
+    }
 }
